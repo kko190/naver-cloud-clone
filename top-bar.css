@@ -1,0 +1,91 @@
+#app-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 7px 80px;
+  font-size: 12px;
+}
+.app-text a {
+  text-decoration: none;
+  color: black;
+}
+.app-text a:first-of-type {
+  margin-right: 6px;
+}
+.app-text a:last-of-type {
+  margin-left: 6px;
+}
+.app-log {
+  width: 210px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.app-log a {
+  margin-right: 14px;
+}
+.app-log a:last-of-type {
+  color: rgb(63, 188, 238);
+  font-weight: 600;
+}
+.app-log span {
+  margin: 0px 5px;
+}
+.app-log a:first-child {
+  text-decoration: none;
+  color: black;
+}
+.app-log a:last-child {
+  /* 회원가입 데코레이션 스타일링 해줄 공간 */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 80px;
+}
+.header a {
+  text-decoration: none;
+}
+.header-menu {
+  padding-top: 6px;
+  font-weight: 600;
+}
+.header-menu a {
+  color: black;
+  margin: 0px 6px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.search-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 3px 0px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.search-console {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 95px;
+  padding: 3px 0px;
+  margin-right: 10px;
+  background-color: rgb(30, 35, 46);
+  color: white;
+  font-size: 14px;
+}
